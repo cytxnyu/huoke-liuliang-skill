@@ -1,0 +1,6 @@
+interface:
+  display_name: "获客与流量"
+  short_description: "用判定门回答今天拍什么、前 3 秒说什么、怎么留资、数据差改哪一处"
+  default_prompt: "使用 $huoke-liuliang，根据我的定位和客户原话，先给出今天能拍的选题，再写前 3 秒钩子，并检查结尾有没有留资。"
+policy:
+  allow_implicit_invocation: true
